@@ -2,7 +2,8 @@
 title: "martinhabets.github.io"
 ---
 
-This is a Quarto website.
+This is a very ugly Quarto website (for now).
+But at least, it's working, easy and free.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
