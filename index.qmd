@@ -5,6 +5,8 @@ title: "martinhabets.github.io"
 This is a very ugly Quarto website (for now).
 But at least, it's working, easy and free.
 
+I still need to render it locally, but at least, it's simpler, and allows for easy preview.
+
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "martinhabets.github.io",
     "section": "",
-    "text": "This is a very ugly Quarto website (for now). But at least, it’s working, easy and free.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a very ugly Quarto website (for now). But at least, it’s working, easy and free.\nI still need to render it locally, but at least, it’s simpler, and allows for easy preview.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "about.html",
