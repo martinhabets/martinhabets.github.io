@@ -2,15 +2,11 @@ project:
   type: website
   output-dir: docs
   
-
 website:
   title: "Martin Habets"
   favicon: favicon.ico
-  google-analytics: "UA-XXXXXXXX"
   
 format:
   html:
-    theme: zephyr
+    email-obfuscation: javascript
     css: styles.css
-# see this https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#styling-the-new-blog
-# also see this for cookies https://github.com/djnavarro/blog
