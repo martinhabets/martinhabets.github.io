@@ -1,21 +1,17 @@
 ---
-title: "MARTIN HABETS"
 resources: cv_habets.pdf
-page-layout: full
 about:
   id: about-heading
-  template: broadside
+  template: trestles
   image: martin-profile.jpg
-  image-width: 10em
-  image-shape: rounded
-  links:
-    - icon: file-text
-      text: "Here's my CV"
-      href: cv_habets.pdf
-    - icon: envelope
-      text: "Write me an email"
-      href: mailto:martin.habets@eui.eu
-      # chnage this email!!!!!
+  image-width: 15em
+  # links:
+  #   - icon: file-text
+  #     text: "Here's my CV"
+  #     href: cv_habets.pdf
+  #   - icon: envelope
+  #     text: "Write me an email"
+  #     href: mailto:martin.habets@eui.eu
     # - icon: github
     #   text: Github
     #   href: https://github.com/martinhabets
@@ -23,24 +19,57 @@ about:
 
 :::{#about-heading}
 
+# Martin Habets
+
 I am an applied environmental economist, currently doing a PhD in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics) in Florence.
 
-I work under the supervision of [Alessandro Tarozzi](https://sites.google.com/site/alessandrotarozzi/home) and [Thomas Crossley](https://sites.google.com/site/tfcrossley/).
+My supervisors are [Alessandro Tarozzi](https://sites.google.com/site/alessandrotarozzi/home) and [Thomas Crossley](https://sites.google.com/site/tfcrossley/).
+
+```{=html}
+<style>
+    .centered-buttons {
+        display: flex;
+        justify-content: center;  /* Centers the buttons horizontally */
+        padding: 20px 0;  /* Adds vertical padding for better spacing */
+    }
+    .btn {
+        display: inline-flex;  /* Ensures buttons are flexible items */
+        align-items: center;  /* Centers content of buttons vertically */
+        justify-content: center;  /* Centers content of buttons horizontally */
+        margin: 0 10px;  /* Adds horizontal margin for spacing between buttons */
+    }
+</style>
+
+
+<!-- Button Container -->
+<div class="centered-buttons">
+    <a href="/cv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success">
+        <i class="bi bi-file-earmark-person" style="font-size: 20px; margin-right: 10px;"></i>
+        Here is my CV
+    </a>
+    <a href="mailto:martin.habets@eui.eu" class="btn btn-outline-success">
+        <i class="bi bi-envelope" style="font-size: 20px; margin-right: 10px;"></i>
+        Send me an email
+    </a>
+</div>
+
+```
 
 ::: 
-
+ 
+ 
+ 
 
 <hr>
 
 ### Work in progress
 
-
-
-::: {.callout-tip collapse="false" appearance="minimal"}
+::: {.callout-tip collapse="true" appearance="minimal"}
 
 # Temperature Variation and Domestic Violence
-<!-- <a href="https://arxiv.org/abs/2110.10825" target="_blank" rel="noopener noreferrer" class="bi-justify-left btn btn-warning" role="button"> draft</a> -->
-<!-- <a href="https://arxiv.org/pdf/2110.10825.pdf" target="_blank" rel="noopener noreferrer" class="bi-sticky btn btn-dark" role="button">  slides</a> -->
+<!-- <a href="https://arxiv.org/abs/2110.10825" target="_blank" rel="noopener noreferrer" class="btn btn-warning" role="button"> -->
+<!--     <i class="bi bi-justify-left"></i> Draft -->
+<!-- </a> -->
 
 _**Abstract:**_ I use two sources of spatially disaggregated data, crime records and calls to a helpline, to document a positive and linear association between ambient temperature and domestic violence in Mexico City. My findings rule out that this association is entirely driven by changes in the reporting behavior of victims. I find that the association between temperature and domestic violence is stronger for domestic violence than for other types of crime: Higher temperatures, by increasing irritability and victimization risk, lead to more domestic violence incidents. My results show a differential impact of temperature even over small geographies within the city. I document a large heterogeneity across neighborhoods, and show that the impact of temperature is strongly correlated to neighborhood characteristics such as poverty and housing attributes.
 
