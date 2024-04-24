@@ -1,15 +1,16 @@
 project:
   type: website
   output-dir: docs
+  
 
 website:
-  title: "martinhabets.github.io"
-
+  title: "Martin Habets"
+  favicon: favicon.ico
+  google-analytics: "UA-XXXXXXXX"
+  
 format:
   html:
-    theme: cosmo
+    theme: zephyr
     css: styles.css
-    toc: true
-
-
-
+# see this https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#styling-the-new-blog
+# also see this for cookies https://github.com/djnavarro/blog
