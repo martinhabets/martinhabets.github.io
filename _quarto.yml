@@ -4,7 +4,7 @@ project:
   
 website:
   title: "Martin Habets"
-  favicon: favicon.ico
+  favicon: "favicon.ico"
   
 format:
   html:
