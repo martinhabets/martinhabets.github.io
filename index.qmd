@@ -20,22 +20,6 @@ I am an applied environmental economist, currently doing a PhD in Economics at t
 My supervisors are [Alessandro Tarozzi](https://sites.google.com/site/alessandrotarozzi/home) and [Thomas Crossley](https://sites.google.com/site/tfcrossley/).
 
 ```{=html}
-<style>
-    .centered-buttons {
-        display: flex;
-        justify-content: center;  /* Centers the buttons horizontally */
-        padding: 20px 0;  /* Adds vertical padding for better spacing */
-    }
-    .btn {
-        display: inline-flex;  /* Ensures buttons are flexible items */
-        align-items: center;  /* Centers content of buttons vertically */
-        justify-content: center;  /* Centers content of buttons horizontally */
-        margin: 0 10px;  /* Adds horizontal margin for spacing between buttons */
-    }
-</style>
-
-
-<!-- Button Container -->
 <div class="centered-buttons">
     <a href="/cv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success">
         <i class="bi bi-file-earmark-person" style="font-size: 20px; margin-right: 10px;"></i>
@@ -46,7 +30,6 @@ My supervisors are [Alessandro Tarozzi](https://sites.google.com/site/alessandro
         Send me an email
     </a>
 </div>
-
 ```
 
 :::

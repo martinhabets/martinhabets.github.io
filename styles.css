@@ -1,31 +1,55 @@
 /* css styles */
 
-/* Responsive adjustments for small screens */
-@media (max-width: 767px) {
-    .grid .g-col-md-4 {
-        order: 2; /* Put the image column last */
-    }
-    .grid .g-col-md-8 {
-        order: 1; /* Put the text column first */
-    }
+/* Style for all paragraphs */
+p {
+    font-family: roboto, sans-serif; 
 }
 
 /* Title style */
 h1 {
     font-size: 2rem; 
     color: #333; 
-    text-align: center; 
-    margin-top: 20px; 
+    margin-top: 0px; 
     margin-bottom: 10px; 
     text-transform: uppercase;
     font-family: 'Roboto Slab', sans-serif; 
 }
 
-/* Center-align all paragraphs */
+/* Heading section style */
 #martin-habets p {
-    text-align: center;
+    font-size: .9rem; 
+}
 
-/* Change font for all paragraphs */
-p {
-    font-family: roboto, sans-serif; 
+
+/* Responsive adjustments for small screens */
+@media (max-width: 767px) {
+    .grid .g-col-md-4 {
+        order: 2; /* Put the image column second */
+    }
+    /* Center text alignment on small devices */
+    #martin-habets p {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    /* Center and resize image on small devices */
+    img {
+        display: block; /* image behaves as a block element */
+        margin: 0 auto; /* Horizontally centers the image within its container */
+        width: 75%;
+    }
+}
+
+/* Define centered buttons */
+.centered-buttons {
+        display: flex;
+        justify-content: center;  /* Centers the buttons horizontally */
+        padding: 20px 0;  /* Adds vertical padding for better spacing */
+}
+.btn {
+    display: inline-flex;  /* Ensures buttons are flexible items */
+    align-items: center;  /* Centers content of buttons vertically */
+    justify-content: center;  /* Centers content of buttons horizontally */
+    margin: 0 10px;  /* Adds horizontal margin for spacing between buttons */
 }
