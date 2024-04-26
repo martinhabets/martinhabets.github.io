@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -85,11 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<p><img src="martin-profile.jpg" class="img-fluid"></p>
-</div>
-<section id="martin-habets" class="level1 g-col-12 g-col-md-8">
+<div class="quarto-about-trestles content">
+  <div class="about-entity">
+    <img src="martin-profile.jpg" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+  <div class="about-contents"><div id="about-heading">
+<section id="martin-habets" class="level1">
 <h1>Martin Habets</h1>
 <p>I am an applied environmental economist, currently doing a PhD in Economics at the <a href="https://www.eui.eu/en/academic-units/department-of-economics">European University Institute</a> in Florence.</p>
 <p>My supervisors are <a href="https://sites.google.com/site/alessandrotarozzi/home">Alessandro Tarozzi</a> and <a href="https://sites.google.com/site/tfcrossley/">Thomas Crossley</a>.</p>
@@ -106,8 +107,6 @@ ul.task-list li input[type="checkbox"] {
         margin: 0 10px;  /* Adds horizontal margin for spacing between buttons */
     }
 </style>
-
-
 <!-- Button Container -->
 <div class="centered-buttons">
     <a href="./cv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success">
@@ -119,12 +118,13 @@ ul.task-list li input[type="checkbox"] {
         Send me an email
     </a>
 </div>
-
 </section>
+</div></div>
 </div>
+
 <hr>
 <section id="work-in-progress" class="level3">
-<h3 class="anchored" data-anchor-id="work-in-progress">Work in progress</h3>
+<h3 data-anchor-id="work-in-progress">Work in progress</h3>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -162,6 +162,7 @@ Role of Siblings in Gender Norms Formation <em>(with Libertad González)</em>
 </div>
 
 
+
 </section>
 
 </main> <!-- /main -->
@@ -185,13 +186,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

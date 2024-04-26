@@ -1,1 +1,11 @@
 /* css styles */
+
+/* Responsive adjustments for small screens */
+@media (max-width: 767px) {
+    .grid .g-col-md-4 {
+        order: 2; /* Put the image column last */
+    }
+    .grid .g-col-md-8 {
+        order: 1; /* Put the text column first */
+    }
+}

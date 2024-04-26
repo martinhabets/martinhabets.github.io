@@ -1,23 +1,17 @@
 ---
 resources: cv_habets.pdf
-about:
-  id: about-heading
-  template: trestles
-  image: martin-profile.jpg
-  image-width: 15em
-  # links:
-  #   - icon: file-text
-  #     text: "Here's my CV"
-  #     href: cv_habets.pdf
-  #   - icon: envelope
-  #     text: "Write me an email"
-  #     href: mailto:martin.habets@eui.eu
-    # - icon: github
-    #   text: Github
-    #   href: https://github.com/martinhabets
+#page-layout: full
 ---
 
-:::{#about-heading}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](martin-profile.jpg)
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
 
 # Martin Habets
 
@@ -55,11 +49,11 @@ My supervisors are [Alessandro Tarozzi](https://sites.google.com/site/alessandro
 
 ```
 
-::: 
- 
- 
- 
+:::
 
+:::
+
+ 
 <hr>
 
 ### Work in progress
