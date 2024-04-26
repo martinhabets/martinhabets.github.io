@@ -9,3 +9,23 @@
         order: 1; /* Put the text column first */
     }
 }
+
+/* Title style */
+h1 {
+    font-size: 2rem; 
+    color: #333; 
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', sans-serif; 
+}
+
+/* Center-align all paragraphs */
+#martin-habets p {
+    text-align: center;
+
+/* Change font for all paragraphs */
+p {
+    font-family: roboto, sans-serif; 
+}
