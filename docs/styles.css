@@ -41,15 +41,4 @@ h1 {
     }
 }
 
-/* Define centered buttons */
-.centered-buttons {
-        display: flex;
-        justify-content: center;  /* Centers the buttons horizontally */
-        padding: 20px 0;  /* Adds vertical padding for better spacing */
-}
-.btn {
-    display: inline-flex;  /* Ensures buttons are flexible items */
-    align-items: center;  /* Centers content of buttons vertically */
-    justify-content: center;  /* Centers content of buttons horizontally */
-    margin: 0 10px;  /* Adds horizontal margin for spacing between buttons */
-}
+
