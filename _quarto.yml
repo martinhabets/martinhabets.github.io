@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Martin Habets"
+  title: "Martin Habets, ECON PhD"
   description: "This is Martin Habets' personal website."
   favicon: "favicon.ico"
   page-footer:
     right: 
-      - text: "Last updated: April 26, 2024"
+      - text: "Last updated: July, 2024"
   google-analytics: "G-4JM84VFV7T"
   
 format:
