@@ -1,0 +1,281 @@
+%------------------------------------------------------------------------------
+% CV in Latex
+% Author : Charles Rambo
+% Based off of: https://github.com/sb2nov/resume and Jake's Resume on Overleaf
+% Most recently updated version may be found at https://github.com/fizixmastr 
+% License : MIT
+%------------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+%a4paper
+%\documentclass[letterpaper,11pt]{article} %For use in US
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    }
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\begin{comment}
+I am by no means a professional when it comes to the CV's/resumes, I have
+received various trainings on how to write a CV and resume from my high 
+school, as well as the Austin College and University of Eastern Finland's
+career counseling departments. As I intend to share my CV as a template, I 
+feel that it is my responsibility to provide explanations of my work.
+\end{comment}
+
+
+%-----FONT OPTIONS-------------------------------------------------------------
+\begin{comment}
+The font of the document will impact not just how readable it is, but how it is
+perceived. In the "The Craft of Scientific Writing" by Michael Alley, shares a
+common fonts for publication as well as their use. I have chosen to use
+Palatino for its legibility, some others are given below. There is far too much
+about typography to discus here. Note: serif fonts have short projecting
+strokes, sans-serif fonts are sans (without) these strokes.
+\end{comment}
+
+
+% serif
+% \usepackage{palatino}
+% \usepackage{times} %This is the default as well
+% \usepackage{charter}
+
+% sans-serif
+% \usepackage{helvet}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+%-----PAGE SETUP---------------------------------------------------------------
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-1cm}
+\addtolength{\evensidemargin}{-1cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\topmargin}{-1cm}
+\addtolength{\textheight}{2cm}
+
+% Margins for US Letter size
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1.0in}
+
+\urlstyle{tt}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0cm}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+%-----CUSTOM COMMANDS FOR FORMATTING SECTIONS----------------------------------
+\newcommand{\CVItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\CVSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \text{\small#1} & \text{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVSubItem}[1]{\CVItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\CVSubHeadingListStart}{\begin{itemize}[leftmargin=0.5cm, label={}]}
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} % Uncomment for US
+\newcommand{\CVSubHeadingListEnd}{\end{itemize}}
+\newcommand{\CVItemListStart}{\begin{itemize}}
+\newcommand{\CVItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%------------------------------------------------------------------------------
+% CV STARTS HERE  %
+%------------------------------------------------------------------------------
+\begin{document}
+
+%-----HEADING------------------------------------------------------------------
+
+\begin{center}
+    \textbf{\Large \textbf{MARTIN HABETS}} \\ \vspace{2pt} %\scshape sets small capital letters, remove if desired
+    \href{mailto:martin.habets@eui.eu}{martin.habets@eui.eu} \
+\end{center}
+
+
+
+\begin{comment}
+This CV was written for specifically for positions I was applying for in
+academia, and then modified to be a template.
+
+A standard CV is about two pages long where as a resume in the US is one page.
+sections can be added and removed here with this in mind. In my experience, 
+education, and applicable work experience and skills are the most import things
+to include on a resume. For a CV the Europass CV suggests the categories: Work
+Experience, Education and Training, Language Skills, Digital Skills,
+Communication and Interpersonal Skills, Conferences and Seminars, Creative Works
+Driver's License, Hobbies and Interests, Honors and Awards, Management and
+Leadership Skills, Networks and Memberships, Organizational Skills, Projects,
+Publications, Recommendations, Social and Political Activities, Volunteering.
+
+Your goal is to convey a who, what , when, where, why for every item you share. 
+The who is obviously you, but I believe the rest should be done in that order.
+For example below. An employer cares most about the degree held and typically 
+less about the institution or where it is located (This is still good 
+information though). Whatever order you choose be consistent throughout.
+\end{comment}
+
+%-----RESEARCH INTERESTS----------------------------------------------------
+
+\section{Research Interests}
+ \begin{itemize}[leftmargin=0.5cm, label={}]
+    \small{\item{
+     \textbf{Primary Field: }{Environmental Economics} \\
+     \textbf{Interests: }{Applied Micro, Gender, Development} 
+    }}
+ \end{itemize}
+
+
+  %-----WORK IN PROGRESS----------------------------------------------------
+
+\section{Work in Progress}
+ \begin{itemize}[leftmargin=0.5cm, label={}]
+    \small{\item{
+	Temperature Variation and Domestic Violence\\
+	\vspace{.2cm}
+	Role of Siblings in Gender Norms Formation (with Libertad González)
+	%	\vspace{.2cm}
+	%The Effect of Sibling Gender on Attitude (with J reuter)
+    }}
+ \end{itemize}
+ 
+
+
+%-----EDUCATION----------------------------------------------------------------
+\section{Education}
+  \CVSubHeadingListStart
+%    \CVSubheading % Example
+%      {Degree Achieved}{Years of Study}
+%      {Institution of Study}{Where it is located}
+    \CVSubheading
+      {{PhD in Economics $|$ \emph{\small{European University Institute (Florence)}}}}{2020 -- Present}
+      {Advisors: Alessandro Tarozzi and Thomas Crossley}{}
+    \CVSubheading
+      {{Master in Economics $|$ \emph{\small{College of Europe (Bruges)}}}}{2018 -- 2019}
+      {Research project with Andrés Rodríguez-Pose}{}
+    \CVSubheading
+      {{Bachelor and Master in Economics $|$ \emph{\small{University of Liege (Belgium)}}}}{2013 -- 2018}
+      {Exchanges in Seoul and Bogota}{}
+  \CVSubHeadingListEnd
+  
+
+ 
+%-----TEACHING EXPERIENCE----------------------------------------------------
+
+\section{Teaching Experience}
+  \CVSubHeadingListStart
+     \CVSubheading
+      {{Theory and Practice of Causal Inference}}{Fall 2023}
+      {EUI, PhD level $|$ Teaching Assistant to Fabrizia Mealli} {}
+    \CVSubheading
+      {{Topics in Microeconometrics}}{Spring 2023 \& 2024}
+      {EUI, PhD level $|$ Teaching Assistant to Alessandro Tarozzi} {}
+  \CVSubHeadingListEnd
+
+
+%-----WORK EXPERIENCE----------------------------------------------------------
+
+\section{Work Experience}
+  \CVSubHeadingListStart
+%    \CVSubheading %Example
+%      {What you did}{When you worked there}
+%      {Who you worked for}{Where they are located}
+%      \CVItemListStart
+%        \CVItem{Why it is important to this employer}
+%      \CVItemListEnd
+    \CVSubheading
+      {European Commission, Brussels}{Oct 2019 -- Mar 2020}
+      {Blue Book trainee at DG ECFIN}{}
+    \CVSubheading
+      {Belgian Ministry of Finances, Brussels, Belgium}{Apr 2018 - Jun 2018}
+      {Intern at the Treasury}{}
+    \CVSubheading
+      {Embassy of Belgium, Santiago, Chile}{Jan 2017 -- Feb 2017}
+      {Intern}{}
+  \CVSubHeadingListEnd
+
+%-----CONFERENCES AND PRESENTATIONS--------------------------------------------
+
+%\section{Conferences and Presentations}
+%  \CVSubHeadingListStart
+%%    \CVSubheading % Example
+%%      {Work Presented}{When}
+%%      {Occasion}{}
+%    \CVSubheading
+%      {Photometric Filter Fidelity and Use for Be Star Identification}{November 2017}
+%      {Austin College Physics Research Seminar}{}
+%  \CVSubHeadingListEnd
+
+
+%-----AWARDS AND GRANTS-------------------------------------------------------------------
+
+\section{Grants and Awards}
+ \begin{itemize}[leftmargin=0.5cm, label={}]
+    \small{\item{
+EUI fourth year grant \\
+ F.R.S.-FNRS EUI Doctoral Grant\\
+Full scholarship awarded by Ageas for the College of Europe\\
+Erasmus+ Grant for visiting Universidad Nacional de Colombia (Bogota) \\
+Erasmus+ Grant for visiting Kyung Hee University (Seoul)
+    }}
+ \end{itemize}
+
+%-----SKILLS-------------------------------------------------------------------
+
+\section{Skills}
+ \begin{itemize}[leftmargin=0.5cm, label={}]
+    \small{\item{
+     \textbf{Languages}{: French (Native), English (fluent), Spanish (fluent), Italian, Dutch, German (intermediate)} \\
+     \textbf{Programming}{: R, Stata, Python} \\
+     \textbf{Document Creation}{: Quarto, LaTeX} 
+    }}
+ \end{itemize}
+    
+%-----REFERENCES-------------------------------------------------------------------
+
+\section{References}
+ \begin{itemize}[leftmargin=0.5cm, label={}]
+    \small{\item{
+     \textbf{Alessandro Tarozzi: }{: European University Institute  $|$ \href{mailto:alessandro.tarozzi@upf.edu}{alessandro.tarozzi@upf.edu}} \\
+     \textbf{Thomas Crossley}{:  University of Michigan $|$ \href{mailto:tfcross@umich.edu}{tfcross@umich.edu}} 
+    }}
+ \end{itemize} 
+    
+  
+%------------------------------------------------------------------------------
+\end{document}
