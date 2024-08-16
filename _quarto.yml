@@ -13,7 +13,7 @@ website:
   
 files:
   - robots.txt  
-  - other
+  - other/maps.html
   
 format:
   html:
