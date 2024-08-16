@@ -11,6 +11,9 @@ website:
       - text: "Last updated: July, 2024"
   google-analytics: "G-4JM84VFV7T"
   
+files:
+  - robots.txt  
+  
 format:
   html:
     email-obfuscation: javascript
