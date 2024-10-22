@@ -47,7 +47,8 @@ _**Abstract:**_ I use two sources of spatially disaggregated data, crime records
 
 _**Presented at:**_
 Maastricht Workshop on Applied Economics of the Environment (2024),
-6th QMUL Economics and Finance Workshop (2024)
+6th QMUL Economics and Finance Workshop (2024),
+Tor Vergata Ph.D. Conference (2024)
 
 :::
 
