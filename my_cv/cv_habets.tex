@@ -21,14 +21,20 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 
+%-----FOOTER WITH LAST UPDATE------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}  % clear header and footer
+
+\renewcommand{\footrulewidth}{0pt} % no line
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyfoot[C]{\scriptsize Last updated: March 2025}
+
+
 %-----PAGE SETUP---------------------------------------------------------------
 
-% Adjust margins
-\addtolength{\oddsidemargin}{-1cm}
-\addtolength{\evensidemargin}{-1cm}
-\addtolength{\textwidth}{2cm}
-\addtolength{\topmargin}{-1.5cm}
-\addtolength{\textheight}{3cm}
+\usepackage[left=1.5cm, right=1.5cm, top =1cm, bottom=1cm]{geometry}
 
 \urlstyle{tt}
 
@@ -126,8 +132,7 @@ information though). Whatever order you choose be consistent throughout.
     }}
  \end{itemize}
  
-
-
+ 
 %-----EDUCATION----------------------------------------------------------------
 \section{Education}
   \CVSubHeadingListStart
@@ -145,6 +150,22 @@ information though). Whatever order you choose be consistent throughout.
       {Exchanges in Seoul and Bogota}{}
   \CVSubHeadingListEnd
   
+
+%-----TEACHING EXPERIENCE----------------------------------------------------
+
+\section{Teaching}
+  \CVSubHeadingListStart
+    \CVSubheading
+      {{Recent Advances in Applied Micro-econometrics for Causal Inference}}{Spring 2024}
+      {EUI, PhD level $|$ Teaching Assistant to Alessandro Tarozzi} {}
+     \CVSubheading
+      {{Theory and Practice of Causal Inference}}{Fall 2023}
+      {EUI, PhD level $|$ Teaching Assistant to Fabrizia Mealli} {}
+    \CVSubheading
+      {{Topics in Microeconometrics}}{Spring 2023 \& 2024}
+      {EUI, PhD level $|$ Teaching Assistant to Alessandro Tarozzi} {}
+  \CVSubHeadingListEnd
+
 
 
 %-----WORK EXPERIENCE----------------------------------------------------------
@@ -172,22 +193,6 @@ information though). Whatever order you choose be consistent throughout.
   \CVSubHeadingListEnd
 
  
-%-----TEACHING EXPERIENCE----------------------------------------------------
-
-\section{Teaching}
-  \CVSubHeadingListStart
-    \CVSubheading
-      {{Recent Advances in Applied Micro-econometrics for Causal Inference}}{Spring 2024}
-      {EUI, PhD level $|$ Teaching Assistant to Alessandro Tarozzi} {}
-     \CVSubheading
-      {{Theory and Practice of Causal Inference}}{Fall 2023}
-      {EUI, PhD level $|$ Teaching Assistant to Fabrizia Mealli} {}
-    \CVSubheading
-      {{Topics in Microeconometrics}}{Spring 2023 \& 2024}
-      {EUI, PhD level $|$ Teaching Assistant to Alessandro Tarozzi} {}
-  \CVSubHeadingListEnd
-
-
 %-----CONFERENCES AND PRESENTATIONS--------------------------------------------
 
 %\section{Conferences and Presentations}
