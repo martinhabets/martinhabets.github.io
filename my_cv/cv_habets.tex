@@ -1,14 +1,10 @@
 %------------------------------------------------------------------------------
-% CV in Latex
-% Author : Charles Rambo
-% Based off of: https://github.com/sb2nov/resume and Jake's Resume on Overleaf
-% Most recently updated version may be found at https://github.com/fizixmastr 
+% https://github.com/fizixmastr/CV-Resume
 % License : MIT
 %------------------------------------------------------------------------------
 
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 %a4paper
-%\documentclass[letterpaper,11pt]{article} %For use in US
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -25,51 +21,14 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 
-\begin{comment}
-I am by no means a professional when it comes to the CV's/resumes, I have
-received various trainings on how to write a CV and resume from my high 
-school, as well as the Austin College and University of Eastern Finland's
-career counseling departments. As I intend to share my CV as a template, I 
-feel that it is my responsibility to provide explanations of my work.
-\end{comment}
-
-
-%-----FONT OPTIONS-------------------------------------------------------------
-\begin{comment}
-The font of the document will impact not just how readable it is, but how it is
-perceived. In the "The Craft of Scientific Writing" by Michael Alley, shares a
-common fonts for publication as well as their use. I have chosen to use
-Palatino for its legibility, some others are given below. There is far too much
-about typography to discus here. Note: serif fonts have short projecting
-strokes, sans-serif fonts are sans (without) these strokes.
-\end{comment}
-
-
-% serif
-% \usepackage{palatino}
-% \usepackage{times} %This is the default as well
-% \usepackage{charter}
-
-% sans-serif
-% \usepackage{helvet}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
 %-----PAGE SETUP---------------------------------------------------------------
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-1cm}
 \addtolength{\evensidemargin}{-1cm}
 \addtolength{\textwidth}{2cm}
-\addtolength{\topmargin}{-1cm}
-\addtolength{\textheight}{2cm}
-
-% Margins for US Letter size
-%\addtolength{\oddsidemargin}{-0.5in}
-%\addtolength{\evensidemargin}{-0.5in}
-%\addtolength{\textwidth}{1in}
-%\addtolength{\topmargin}{-.5in}
-%\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-1.5cm}
+\addtolength{\textheight}{3cm}
 
 \urlstyle{tt}
 
@@ -150,26 +109,20 @@ less about the institution or where it is located (This is still good
 information though). Whatever order you choose be consistent throughout.
 \end{comment}
 
-%-----RESEARCH INTERESTS----------------------------------------------------
-
-\section{Research Interests}
- \begin{itemize}[leftmargin=0.5cm, label={}]
-    \small{\item{
-     \textbf{Primary Field: }{Environmental Economics} 
-    }}
- \end{itemize}
 
 
   %-----WORK IN PROGRESS----------------------------------------------------
 
-\section{Work in Progress}
+\section{Research}
  \begin{itemize}[leftmargin=0.5cm, label={}]
     \small{\item{
 	Temperature Variation and Domestic Violence\\
+	%\textit{Job Market Paper}\\
 	\vspace{.2cm}
-	Role of Siblings in Gender Norms Formation \textit{(with Libertad González)}
-	%	\vspace{.2cm}
-	%The Effect of Sibling Gender on Attitude (with J reuter)
+	Role of Siblings in Gender Norms Formation \\ \textit{(with Libertad González)}\\
+	\vspace{.2cm}
+	Bloom and Bust: The Impact of Pollen on Workplace Safety \\
+	\textit{(with Benjamin Hattemer and Ismael Moreno-Martinez)}\\
     }}
  \end{itemize}
  
@@ -183,7 +136,7 @@ information though). Whatever order you choose be consistent throughout.
 %      {Institution of Study}{Where it is located}
     \CVSubheading
       {{PhD in Economics $|$ \emph{\small{European University Institute (Florence)}}}}{2020 -- Present}
-      {Advisors: Alessandro Tarozzi and Thomas Crossley}{}
+      {Supervisors: Alessandro Tarozzi and Thomas Crossley}{}
     \CVSubheading
       {{Master in Economics $|$ \emph{\small{College of Europe (Bruges)}}}}{2018 -- 2019}
       {Research project with Andrés Rodríguez-Pose (LSE)}{}
@@ -193,10 +146,35 @@ information though). Whatever order you choose be consistent throughout.
   \CVSubHeadingListEnd
   
 
+
+%-----WORK EXPERIENCE----------------------------------------------------------
+
+\section{Experience}
+  \CVSubHeadingListStart
+%    \CVSubheading %Example
+%      {What you did}{When you worked there}
+%      {Who you worked for}{Where they are located}
+%      \CVItemListStart
+%        \CVItem{Why it is important to this employer}
+%      \CVItemListEnd
+    \CVSubheading
+      {Sapienza University of Rome}{Nov 2024 -- Oct 2025}
+      {Research fellow}{}
+    \CVSubheading
+      {European Commission}{Oct 2019 -- Mar 2020}
+      {Blue Book trainee at DG ECFIN}{}
+    \CVSubheading
+      {Belgian Ministry of Finances}{Apr 2018 - Jun 2018}
+      {Intern at the Treasury}{}
+    \CVSubheading
+      {Embassy of Belgium in Santiago, Chile}{Jan 2017 -- Mar 2017}
+      {Intern}{}
+  \CVSubHeadingListEnd
+
  
 %-----TEACHING EXPERIENCE----------------------------------------------------
 
-\section{Teaching Experience}
+\section{Teaching}
   \CVSubHeadingListStart
     \CVSubheading
       {{Recent Advances in Applied Micro-econometrics for Causal Inference}}{Spring 2024}
@@ -209,27 +187,6 @@ information though). Whatever order you choose be consistent throughout.
       {EUI, PhD level $|$ Teaching Assistant to Alessandro Tarozzi} {}
   \CVSubHeadingListEnd
 
-
-%-----WORK EXPERIENCE----------------------------------------------------------
-
-\section{Work Experience}
-  \CVSubHeadingListStart
-%    \CVSubheading %Example
-%      {What you did}{When you worked there}
-%      {Who you worked for}{Where they are located}
-%      \CVItemListStart
-%        \CVItem{Why it is important to this employer}
-%      \CVItemListEnd
-    \CVSubheading
-      {European Commission}{Oct 2019 -- Mar 2020}
-      {Blue Book trainee at DG ECFIN}{}
-    \CVSubheading
-      {Belgian Ministry of Finances}{Apr 2018 - Jun 2018}
-      {Intern at the Treasury}{}
-    \CVSubheading
-      {Embassy of Belgium in Santiago, Chile}{Jan 2017 -- Feb 2017}
-      {Intern}{}
-  \CVSubHeadingListEnd
 
 %-----CONFERENCES AND PRESENTATIONS--------------------------------------------
 
@@ -245,17 +202,17 @@ information though). Whatever order you choose be consistent throughout.
 
 
 %-----AWARDS AND GRANTS-------------------------------------------------------------------
-
-\section{Grants and Awards}
- \begin{itemize}[leftmargin=0.5cm, label={}]
-    \small{\item{
-EUI fourth year grant \\
- F.R.S.-FNRS EUI Doctoral Grant\\
-Full scholarship awarded by Ageas for the College of Europe\\
-Erasmus+ Grant for visiting Universidad Nacional de Colombia (Bogota) \\
-Erasmus+ Grant for visiting Kyung Hee University (Seoul)
-    }}
- \end{itemize}
+%
+%\section{Grants and Awards}
+% \begin{itemize}[leftmargin=0.5cm, label={}]
+%    \small{\item{
+%EUI fourth year grant \\
+% F.R.S.-FNRS EUI Doctoral Grant\\
+%Full scholarship awarded by Ageas for the College of Europe\\
+%Erasmus+ Grant for visiting Universidad Nacional de Colombia (Bogota) \\
+%Erasmus+ Grant for visiting Kyung Hee University (Seoul)
+%    }}
+% \end{itemize}
 
 %-----SKILLS-------------------------------------------------------------------
 
@@ -263,8 +220,8 @@ Erasmus+ Grant for visiting Kyung Hee University (Seoul)
  \begin{itemize}[leftmargin=0.5cm, label={}]
     \small{\item{
      \textbf{Languages}{: French (Native), English (fluent), Spanish (fluent), Italian, Dutch, German (basic)} \\
-     \textbf{Programming}{: R, Stata, Python} \\
-     \textbf{Document Creation}{: Quarto, LaTeX} 
+     \textbf{Programming}{: R, Stata, Python, SQL} \\
+     \textbf{Document Creation}{: Quarto, \LaTeX{}} 
     }}
  \end{itemize}
     
@@ -274,8 +231,10 @@ Erasmus+ Grant for visiting Kyung Hee University (Seoul)
  \begin{itemize}[leftmargin=0.5cm, label={}]
     \small{\item{
      \textbf{Alessandro Tarozzi: }{: European University Institute  $|$ \href{mailto:alessandro.tarozzi@upf.edu}{alessandro.tarozzi@upf.edu}} \\
-     \textbf{Thomas Crossley}{:  University of Michigan $|$ \href{mailto:tfcross@umich.edu}{tfcross@umich.edu}} 
-    }}
+     \textbf{Thomas Crossley}{:  University of Michigan $|$ \href{mailto:tfcross@umich.edu}{tfcross@umich.edu}}  \\
+     \textbf{Valerio Leone Sciabolazza}{:  Sapienza University of Rome $|$ \href{mailto:valerio.leonesciabolazza@uniroma1.it}{valerio.leonesciabolazza@uniroma1.it}} 
+    }} \\
+    
  \end{itemize} 
     
   
