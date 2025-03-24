@@ -18,7 +18,7 @@ resources: my_cv/cv_habets.pdf
 I am a PhD student in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics) in Florence
 and a research fellow at the Sapienza University of Rome.
 I work under the supervision of [Alessandro Tarozzi](https://sites.google.com/site/alessandrotarozzi/home) and [Thomas Crossley](https://sites.google.com/site/tfcrossley/).
-My main interests are in environmental and gender economics.
+My main research interest is in environmental economics.
 
 
 <a href="/my_cv/cv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success" role="button">
@@ -40,16 +40,22 @@ Send me an email
 ::: {.callout-tip collapse="true" appearance="minimal"}
 
 # Temperature Variation and Domestic Violence
-<!-- <a href="https://arxiv.org/abs/2110.10825" target="_blank" rel="noopener noreferrer" class="btn btn-warning" role="button"> -->
-<!--     <i class="bi bi-justify-left"></i> Draft -->
-<!-- </a> -->
 
-_**Abstract:**_ I use two sources of spatially disaggregated data, crime records and calls to a helpline, to document a positive and linear association between ambient temperature and domestic violence in Mexico City. My findings rule out that this association is entirely driven by changes in the reporting behavior of victims. I find that the association between temperature and domestic violence is stronger for domestic violence than for other types of crime: Higher temperatures, by increasing irritability and victimization risk, lead to more domestic violence incidents. My results show a differential impact of temperature even over small geographies within the city. I document a large heterogeneity across neighborhoods, and show that the impact of temperature is strongly correlated to neighborhood characteristics such as poverty and housing attributes.
+_**Abstract:**_ I combine crime reports, helpline call data, and high-frequency weather information 
+to study the effects of temperature on domestic violence in Mexico City.
+I find a positive, contemporaneous, and linear relationship between daily temperature and domestic violence in a context characterized by mild climatic conditions.
+On average, a 1°C increase in daily temperature is associated with a 2.7% increase in domestic violence -- a response larger than that observed for other types of crime.
+My findings rule out that changes in victims' reporting behavior entirely drive the relationship.
+Leveraging census data in close to 2,000 neighborhoods, I document an unequal response of domestic violence to temperature along urban poverty levels.
 
 _**Presented at:**_
 Maastricht Workshop on Applied Economics of the Environment (2024),
 6th QMUL Economics and Finance Workshop (2024),
 Tor Vergata Ph.D. Conference (2024)
+
+<a href="https://martinhabets.github.io/mexico_build_data/" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-sm" role="button">
+    <i class="bi bi-justify-left"></i> Code and website
+</a>
 
 :::
 
