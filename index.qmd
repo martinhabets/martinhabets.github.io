@@ -37,7 +37,7 @@ Send me an email
 
 ### Work in progress
 
-::: {.callout-tip collapse="true" appearance="minimal"}
+::: {.callout-tip collapse="false" appearance="minimal"}
 
 # Temperature Variation and Domestic Violence
 
@@ -48,14 +48,21 @@ On average, a 1°C increase in daily temperature is associated with a 2.7% incre
 My findings rule out that changes in victims' reporting behavior entirely drive the relationship.
 Leveraging census data in close to 2,000 neighborhoods, I document an unequal response of domestic violence to temperature along urban poverty levels.
 
+::: {style="font-size: 90%;"}
 _**Presented at:**_
 Maastricht Workshop on Applied Economics of the Environment (2024),
 6th QMUL Economics and Finance Workshop (2024),
 Tor Vergata Ph.D. Conference (2024)
 
+:::
+
 <a href="https://martinhabets.github.io/mexico_build_data/" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-sm" role="button">
     <i class="bi bi-justify-left"></i> Code and website
 </a>
+
+
+
+
 
 :::
 
@@ -63,9 +70,19 @@ Tor Vergata Ph.D. Conference (2024)
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 
-# Role of Siblings in Gender Norms Formation _(with Libertad González)_
+# Role of Siblings in Gender Norms Formation
+ _(with [Libertad González](https://libertadgonzalez.com/))_
 
 _**Abstract:**_ Siblings are key players in children’s network. As siblings grow up together, they interact daily and serve as sources of social support and role models for one another. During a time when they are forming their own identities, the presence of a sister (as opposed to a brother) is thus likely to impact the formation of their gender norms.
 In this project, I examine the role of sibling gender in contributing to the formation of gender norms, for a very recent cohort of children, aged 12-14, using data from an experiment by [Farré et al. (2021)](https://docs.iza.org/dp16341.pdf).
+
+:::
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+
+# Bloom and Bust: The Impact of Pollen on Workplace Safety 
+
+_(with [Benjamin Hattemer](https://benjaminhattemer.com/) and [Ismael Moreno-Martinez](https://ismaelmorenomartinez.eu/))_
 
 :::

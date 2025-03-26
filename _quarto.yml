@@ -4,11 +4,11 @@ project:
 
 website:
   title: "Martin Habets, ECON PhD"
-  description: "This is Martin Habets' personal website."
+  description: "This is Martin Habets' personal website"
   favicon: "favicon.ico"
   page-footer:
     right: 
-      - text: "Last updated: July, 2024"
+      - text: "Last updated: March, 2025"
   google-analytics: "G-4JM84VFV7T"
   
 files:
