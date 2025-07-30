@@ -1,5 +1,7 @@
 ---
-resources: my_cv/cv_habets.pdf
+resources:
+  - my_cv/cv_habets.pdf
+  - papers/temp_dv_habets.pdf
 #page-layout: full
 ---
 
@@ -56,7 +58,10 @@ Tor Vergata Ph.D. Conference (2024)
 
 :::
 
-<a href="https://martinhabets.github.io/mexico_build_data/" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-sm" role="button">
+<a href="/papers/temp_dv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-success" role="button">
+    <i class="bi bi-download"></i> Download Paper
+</a>
+<a href="https://martinhabets.github.io/mexico_build_data/" target="_blank" rel="noopener noreferrer" class="btn btn-success" role="button">
     <i class="bi bi-justify-left"></i> Code and website
 </a>
 
