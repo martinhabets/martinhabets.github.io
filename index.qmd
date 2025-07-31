@@ -37,7 +37,7 @@ Send me an email
  
 <hr>
 
-### Work in progress
+### Research
 
 ::: {.callout-tip collapse="false" appearance="minimal"}
 
@@ -58,25 +58,32 @@ Tor Vergata Ph.D. Conference (2024)
 
 :::
 
-<a href="/papers/temp_dv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-success" role="button">
-    <i class="bi bi-download"></i> Download Paper
+<a href="/papers/temp_dv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-success" role="button">
+<i class="bi bi-download"></i> Download Paper
 </a>
-<a href="https://martinhabets.github.io/mexico_build_data/" target="_blank" rel="noopener noreferrer" class="btn btn-success" role="button">
-    <i class="bi bi-justify-left"></i> Code and website
+<a href="https://martinhabets.github.io/mexico_build_data/" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-sm" role="button">
+<i class="bi bi-justify-left"></i> Code and website
 </a>
 
+:::
 
 
+::: {.callout-tip collapse="false" appearance="minimal"}
 
+# Access and Advantage: How Lobbying Informs Congressional Stock Trading
+_(with [M. Battaglini](https://www.mbattaglini.com/), [E. Patacchini](https://www.epatacchini.com/), and [V. Leone Sciabolazza](https://www.valerioleonesciabolazza.com/))_
+
+_**Abstract:**_  We investigate whether legislators’ personal financial behavior responds to lobbying activity. Building a novel panel at the legislator–sector–quarter level, we link stock transaction disclosures by members of the U.S. Congress to lobbying records indicating when firms seek to influence a legislator’s policy agenda.
+We ask whether legislators are more likely to trade in sectors where they have recently been lobbied. The project contributes to our understanding of the strategic use of political connections, the private returns to office, and the channels through which influence may operate in legislative settings.
 
 :::
 
 
 
-::: {.callout-tip collapse="true" appearance="minimal"}
+::: {.callout-tip collapse="false" appearance="minimal"}
 
 # Role of Siblings in Gender Norms Formation
- _(with [Libertad González](https://libertadgonzalez.com/))_
+ _(with [L. González](https://libertadgonzalez.com/))_
 
 _**Abstract:**_ Siblings are key players in children’s network. As siblings grow up together, they interact daily and serve as sources of social support and role models for one another. During a time when they are forming their own identities, the presence of a sister (as opposed to a brother) is thus likely to impact the formation of their gender norms.
 In this project, I examine the role of sibling gender in contributing to the formation of gender norms, for a very recent cohort of children, aged 12-14, using data from an experiment by [Farré et al. (2021)](https://docs.iza.org/dp16341.pdf).
@@ -88,6 +95,9 @@ In this project, I examine the role of sibling gender in contributing to the for
 
 # Bloom and Bust: The Impact of Pollen on Workplace Safety 
 
-_(with [Benjamin Hattemer](https://benjaminhattemer.com/) and [Ismael Moreno-Martinez](https://ismaelmorenomartinez.eu/))_
+_(with [B. Hattemer](https://benjaminhattemer.com/) and [I. Moreno-Martinez](https://ismaelmorenomartinez.eu/))_
 
 :::
+
+
+
