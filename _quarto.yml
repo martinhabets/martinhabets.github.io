@@ -8,7 +8,7 @@ website:
   favicon: "favicon.ico"
   page-footer:
     right: 
-      - text: "Last updated: March, 2025"
+      - text: "Last updated: July, 2025"
   google-analytics: "G-4JM84VFV7T"
   
 files:
