@@ -43,14 +43,13 @@ Send me an email
 
 # Temperature Variation and Domestic Violence
 
-_**Abstract:**_ I combine crime reports, helpline call data, and high-frequency weather information 
-to study the effects of temperature on domestic violence in Mexico City.
-I find a positive, contemporaneous, and linear relationship between daily temperature and domestic violence in a context characterized by mild climatic conditions.
-On average, a 1°C increase in daily temperature is associated with a 2.7% increase in domestic violence -- a response larger than that observed for other types of crime.
-My findings rule out that changes in victims' reporting behavior entirely drive the relationship.
-Leveraging census data in close to 2,000 neighborhoods, I document an unequal response of domestic violence to temperature along urban poverty levels.
+_**Abstract:**_ I combine detailed crime reports, independent helpline data, and high-frequency weather records to investigate how temperature variations influence domestic violence (DV) in Mexico City. 
+I find a positive, contemporaneous, and linear relationship between daily temperature and DV, with a 1°C rise leading to a 2.8% increase in DV reports.
+This effect emerges even under moderate climatic conditions, suggesting continuous risk beyond extreme heat events.
+My findings rule out that changes in victims’ reporting behavior entirely drive the relationship.
+Exploiting detailed census data from nearly 2,500 neighborhoods, I show that temperature-induced DV disproportionately affects poorer areas, revealing how environmental stressors exacerbate existing urban inequalities.
 
-::: {style="font-size: 90%;"}
+::: {style="font-size: 80%;"}
 _**Presented at:**_
 Maastricht Workshop on Applied Economics of the Environment (2024),
 6th QMUL Economics and Finance Workshop (2024),
@@ -68,7 +67,7 @@ Tor Vergata Ph.D. Conference (2024)
 :::
 
 
-::: {.callout-tip collapse="false" appearance="minimal"}
+::: {.callout-tip collapse="true" appearance="minimal"}
 
 # Access and Advantage: How Lobbying Informs Congressional Stock Trading
 _(with [M. Battaglini](https://www.mbattaglini.com/), [E. Patacchini](https://www.epatacchini.com/), and [V. Leone Sciabolazza](https://www.valerioleonesciabolazza.com/))_
@@ -80,7 +79,7 @@ We ask whether legislators are more likely to trade in sectors where they have r
 
 
 
-::: {.callout-tip collapse="false" appearance="minimal"}
+::: {.callout-tip collapse="true" appearance="minimal"}
 
 # Role of Siblings in Gender Norms Formation
  _(with [L. González](https://libertadgonzalez.com/))_
