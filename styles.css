@@ -42,3 +42,14 @@ h1 {
 }
 
 
+/* color for links */
+a {
+  color: #146c43; /* Bootstrap 'success' darkened green */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0f5132; /* even darker on hover */
+  text-decoration: underline;
+}
