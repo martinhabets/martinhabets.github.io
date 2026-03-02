@@ -23,7 +23,7 @@ I am also a research fellow at the Sapienza University of Rome.
 
 My main research interest is in environmental economics.
 
-**I am on the 2025/26 Job Market.**
+<!-- **I am on the 2025/26 Job Market.** -->
 
 <a href="/my_cv/cv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success" role="button">
 <i class="bi bi-file-earmark-person" style="font-size: 20px; margin-right: 10px;"></i> Here is my CV
@@ -70,7 +70,7 @@ Exploiting detailed census data from nearly 2,500 neighborhoods, I show that tem
 :::
 
 
-::: {.callout-tip collapse="true" appearance="minimal"}
+::: {.callout-tip collapse="false" appearance="minimal"}
 
 # Trading on the Hill: How Lobbying Informs Congressional Stock Trading
 _(with [M. Battaglini](https://www.mbattaglini.com/), [E. Patacchini](https://www.epatacchini.com/), and [V. Leone Sciabolazza](https://www.valerioleonesciabolazza.com/))_
@@ -82,7 +82,7 @@ We ask whether legislators are more likely to trade in sectors where they have r
 
 
 
-::: {.callout-tip collapse="true" appearance="minimal"}
+::: {.callout-tip collapse="false" appearance="minimal"}
 
 # Random Sisters: Gender-Norm Formation in Early Adolescence
  _(with [L. González](https://libertadgonzalez.com/))_
@@ -97,7 +97,7 @@ Our findings suggest that, in early adolescence, sibling sex plays at most a lim
 :::
 
 
-::: {.callout-tip collapse="true" appearance="minimal"}
+::: {.callout-tip collapse="false" appearance="minimal"}
 
 # Bloom and Bust: The Impact of Pollen on Workplace Safety 
 
