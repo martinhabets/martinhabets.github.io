@@ -28,7 +28,7 @@ My main research interest is in environmental economics.
 <a href="/my_cv/cv_habets.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success" role="button">
 <i class="bi bi-file-earmark-person" style="font-size: 20px; margin-right: 10px;"></i> Here is my CV
 </a>
-<a href="mailto:martin.habets@eui.eu" class="btn btn-outline-success">
+<a href="mailto:martin.habets@aalto.fi" class="btn btn-outline-success">
 <i class="bi bi-envelope" style="font-size: 20px; margin-right: 10px;"></i>
 Send me an email
 </a>
