@@ -1,0 +1,118 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{linkblue}{HTML}{244A70}
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,
+  pdftitle={Martin Habets -- Curriculum Vitae},pdfauthor={Martin Habets}}
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+\raggedbottom
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{18pt}{7pt}
+
+% A single helper for entries with dates. The left side wraps automatically.
+\newcommand{\entry}[2]{%
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{5mm}}r@{}}
+    #1 & #2
+  \end{tabularx}\par
+}
+
+\begin{document}
+
+% Header
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  {\LARGE\bfseries Martin Habets}
+    & \href{mailto:martin.habets@aalto.fi}{martin.habets@aalto.fi}\\
+    & \href{https://martinhabets.github.io/}{martinhabets.github.io}
+\end{tabularx}
+
+\section*{Academic Positions and Affiliations}
+
+\entry{\textbf{Postdoctoral Researcher}, Aalto University}{2026--Present}
+\entry{\textbf{Affiliated Researcher}, Research Institute of Industrial Economics (IFN)}{2026--Present}
+\entry{\textbf{Research Fellow}, Sapienza University of Rome}{2024--2025}
+
+\section*{Education}
+
+\entry{\textbf{PhD in Economics}, European University Institute}{2020--2026}
+Supervisors: Alessandro Tarozzi and Thomas Crossley
+\par\vspace{4pt}
+
+\entry{\textbf{MA in Economics}, College of Europe}{2018--2019}
+\entry{\textbf{MSc in Economics}, University of Li\`ege}{2016--2018}
+\entry{\textbf{BSc in Economics}, University of Li\`ege}{2013--2016}
+
+\section*{Research Interests}
+
+Environmental, Labor and Health Economics
+
+\section*{Research}
+
+\textbf{Temperature Variation and Domestic Violence}
+\par\vspace{8pt}
+
+\textbf{Trading on the Hill: How Lobbying Informs Congressional Stock Trading}\\
+with \textit{Marco Battaglini, Eleonora Patacchini, and Valerio Leone Sciabolazza}
+\par\vspace{8pt}
+
+\textbf{Random Sisters: Gender-Norm Formation in Early Adolescence}\\
+with \textit{Libertad Gonz\'alez}
+\par\vspace{8pt}
+
+\textbf{Bloom and Bust: The Impact of Pollen on Workplace Safety}\\
+with \textit{Benjamin Hattemer and Ismael Moreno-Martinez}
+
+\section*{Teaching Experience}
+
+\textbf{Teaching Assistant}
+\par\vspace{4pt}
+\entry{Recent Advances in Applied Micro-econometrics (A.~Tarozzi), EUI}{Spring 2024}
+\par\vspace{3pt}
+\entry{Theory and Practice of Causal Inference (F.~Mealli), EUI}{Fall 2023}
+\par\vspace{3pt}
+\entry{Topics in Microeconometrics (A.~Tarozzi), EUI}{Spring 2023 \& 2024}
+
+\section*{Other Professional Experience}
+
+\entry{\textbf{Blue Book Trainee}, European Commission (DG ECFIN)}{Oct 2019--Mar 2020}
+
+\section*{Languages}
+
+French (native); English (fluent); Spanish and Italian (intermediate);
+German and Dutch (basic)
+
+\section*{Technical Skills}
+
+\textbf{Programming and data:} R (primary), Python, SQL, Stata\\
+\textbf{Research workflows:} Git, HPC, Quarto, \LaTeX{}\\
+\textbf{Development:} AI-assisted coding and automation
+
+% References retained here for applications that request them.
+% \section*{References}
+%
+% \textbf{Alessandro Tarozzi}, European University Institute\\
+% \href{mailto:alessandro.tarozzi@upf.edu}{alessandro.tarozzi@upf.edu}
+% \par\vspace{4pt}
+%
+% \textbf{Thomas Crossley}, University of Michigan\\
+% \href{mailto:tfcross@umich.edu}{tfcross@umich.edu}
+% \par\vspace{4pt}
+%
+% \textbf{Valerio Leone Sciabolazza}, Sapienza University of Rome\\
+% \href{mailto:valerio.leonesciabolazza@uniroma1.it}{valerio.leonesciabolazza@uniroma1.it}
+
+\end{document}
