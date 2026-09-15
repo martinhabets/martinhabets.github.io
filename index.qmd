@@ -17,7 +17,9 @@ resources:
 
 # Martin Habets
 
-I am a postdoctoral researcher at Aalto University and an affiliated researcher at the Research Institute of Industrial Economics (IFN.se). I received my PhD in Economics from the European University Institute in 2026.
+I am a postdoctoral researcher at Aalto University and an affiliated researcher at the Research Institute of Industrial Economics (IFN.se).
+
+I received my PhD in Economics from the European University Institute in 2026.
 
 My research interests lie in environmental, labor, and health economics.
 
